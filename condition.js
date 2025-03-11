@@ -50,3 +50,15 @@ else if (marks >= 50 && marks < 80) {
 else if (marks >= 80) {
     console.log("A+")
 }
+5.
+const pageNumber = 500;
+if (pageNumber < 100) {
+    console.log("Small book")
+}
+else if (pageNumber >= 100 && pageNumber <= 500) {
+    console.log("Mid-size-book")
+}
+else if (pageNumber > 500) {
+    console.log("heart-attack-size book")
+}
+
