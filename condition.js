@@ -28,3 +28,14 @@ else if (age > 60) {
 else {
     console.log(bill)
 }
+3.
+const bankBalance = 5001;
+if (bankBalance < 1000) {
+    console.log("deposit koro")
+}
+else if (bankBalance >= 1000 && bankBalance < 5000) {
+    console.log("enjoy your life")
+}
+else if (bankBalance > 5000) {
+    console.log("biye kor")
+}
