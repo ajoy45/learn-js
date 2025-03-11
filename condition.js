@@ -152,4 +152,32 @@ if (partyMember > 100) {
 else {
     console.log("today party is off")
 }
+// page 90
+1.
+let cashback;
+const buy = 4000;
+cashback = buy > 3000 ? 50 : 0;
+console.log(cashback)
+2.
+const myAge = 32;
+myAge > 15 ? console.log("Teenager") : console.log("child");
+3.
+let isLoggedIn = true;
+isLoggedIn == true ? console.log("welcome back") : console.log("please login");
+4.
+let carTank = "full";
+carTank == "full" ? console.log("ready for long drive") : console.log("fill the tank");
+5.
+let pass = true;
+pass ? console.log("party time") : console.log("next semister party time");
+6.
+const sunny = false;
+if (!sunny) {
+    console.log("stay home")
+}
+7.
+const expensive = false;
+if (!expensive) {
+    console.log("i will buy this item")
+}
 
