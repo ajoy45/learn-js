@@ -98,4 +98,19 @@ if (isInvite) {
 else {
     console.log("i will remove you from my friend list")
 }
+2.
+const isTakeTea = true;
+const isTakeBiscute = false;
+if (isTakeTea) {
+    if (isTakeBiscute) {
+        console.log("tea is not ready")
+    }
+    else {
+        console.log("tea is ready")
+    }
+
+}
+else {
+    console.log("bose bose star jolsa dekho")
+}
 
