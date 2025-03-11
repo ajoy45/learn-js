@@ -83,4 +83,19 @@ else if (playerLevel >= 10 && playerLevel <= 50) {
 else if (playerLevel > 50) {
     console.log("pro gamer")
 }
+// page 86
+1.
+const isInvite = true;
+const myPocketMoney = 900;
+if (isInvite) {
+    if (myPocketMoney > 1000) {
+        console.log("i will buy a gift")
+    }
+    else {
+        console.log("i have no money")
+    }
+}
+else {
+    console.log("i will remove you from my friend list")
+}
 
