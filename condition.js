@@ -33,9 +33,20 @@ const bankBalance = 5001;
 if (bankBalance < 1000) {
     console.log("deposit koro")
 }
-else if (bankBalance >= 1000 && bankBalance < 5000) {
+else if (bankBalance >= 1000 && bankBalance <= 5000) {
     console.log("enjoy your life")
 }
 else if (bankBalance > 5000) {
     console.log("biye kor")
+}
+4.
+const marks = 79;
+if (marks < 50) {
+    console.log("fail")
+}
+else if (marks >= 50 && marks < 80) {
+    console.log("pass")
+}
+else if (marks >= 80) {
+    console.log("A+")
 }
