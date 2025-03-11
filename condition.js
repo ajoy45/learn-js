@@ -61,4 +61,15 @@ else if (pageNumber >= 100 && pageNumber <= 500) {
 else if (pageNumber > 500) {
     console.log("heart-attack-size book")
 }
+6.
+const temperature = 23;
+if (temperature < 0) {
+    console.log("Ice")
+}
+else if (temperature >= 0 && temperature <= 20) {
+    console.log("Cool Cool")
+}
+else if (temperature > 20) {
+    console.log("Hot")
+}
 
