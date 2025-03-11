@@ -13,3 +13,18 @@ else if (price > 6000) {
 else {
     console.log(price)
 }
+
+2.
+const bill = 700;
+const age = 95;
+if (age < 12) {
+    console.log("you get food free");
+}
+else if (age > 60) {
+    const discount = (bill / 100) * 50;
+    const pay = bill - discount;
+    console.log(pay)
+}
+else {
+    console.log(bill)
+}
