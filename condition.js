@@ -72,4 +72,15 @@ else if (temperature >= 0 && temperature <= 20) {
 else if (temperature > 20) {
     console.log("Hot")
 }
+7.
+const playerLevel = 53;
+if (playerLevel < 10) {
+    console.log("novice")
+}
+else if (playerLevel >= 10 && playerLevel <= 50) {
+    console.log("expert")
+}
+else if (playerLevel > 50) {
+    console.log("pro gamer")
+}
 
