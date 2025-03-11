@@ -113,4 +113,43 @@ if (isTakeTea) {
 else {
     console.log("bose bose star jolsa dekho")
 }
+3.
+const isActive = true;
+const subscription = "premium"
+if (isActive) {
+    if (subscription == "premium") {
+        console.log("show the premium feature")
+    }
+    else {
+        console.log("show the free version")
+    }
+}
+4.
+const isFood = false;
+const isFoodApp = true;
+if (isFood) {
+    console.log("food is becoming hot")
+}
+else {
+    if (isFoodApp) {
+        console.log("please give me the food")
+    }
+    else {
+        console.log("today i become empty")
+    }
+}
+5.
+const partyMember = 400;
+const isgift = true;
+if (partyMember > 100) {
+    if (isgift) {
+        console.log("lets party all night")
+    }
+    else {
+        console.log("i will part only myself")
+    }
+}
+else {
+    console.log("today party is off")
+}
 
